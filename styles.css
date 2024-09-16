@@ -1,0 +1,40 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Centrar el texto dentro del enlace */
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+.download-button:active {
+    background-color: #004085;
+}
